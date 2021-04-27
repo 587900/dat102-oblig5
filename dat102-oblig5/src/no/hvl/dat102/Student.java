@@ -11,7 +11,7 @@ public class Student {
 	
 	@Override
 	public int hashCode() {
-		return namn.hashCode() + snr * 31;	// Primtall
+		return namn.hashCode() + snr * 31;	// primtall
 	}
 
 }
