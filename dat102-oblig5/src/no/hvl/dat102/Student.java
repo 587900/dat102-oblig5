@@ -8,5 +8,10 @@ public class Student {
 		this.snr = snr;
 		this.namn = namn;
 	}
+	
+	@Override
+	public int hashCode() {
+		return namn.hashCode() + snr * 31;	//primtal
+	}
 
 }
